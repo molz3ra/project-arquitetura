@@ -44,12 +44,12 @@ export function Header() {
   }
 
   // Animation variants
-  const menuVariants = {
+  const menuVariants: any = {
     closed: { y: '-100%', transition: { duration: 0.8, ease: [0.76, 0, 0.24, 1] } },
     open: { y: '0%', transition: { duration: 0.8, ease: [0.76, 0, 0.24, 1] } }
   }
 
-  const linkVariants = {
+  const linkVariants: any = {
     closed: { y: 100, opacity: 0 },
     open: (i: number) => ({
       y: 0,

@@ -35,8 +35,10 @@ export function MagneticButton({
     setPosition({ x: 0, y: 0 })
   }
 
+  const ComponentToRender = Component as any
+
   return (
-    <Component
+    <ComponentToRender
       ref={ref}
       onMouseMove={handleMouse}
       onMouseLeave={reset}
