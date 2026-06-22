@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme {
+  --color-gesso: #F5F2EE;
+  --color-charcoal: #1A1A1A;
+  --color-charcoal-hover: #2c2c2c;
+  --font-sans: var(--font-outfit);
+}
+
+/* Base Styles */
+html {
+  scroll-behavior: auto;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-gesso);
+  color: var(--color-charcoal);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::selection {
+  background-color: rgba(26, 26, 26, 0.15); /* charcoal/15 */
+  color: #1A1A1A;
+}
