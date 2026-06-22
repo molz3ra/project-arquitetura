@@ -51,6 +51,6 @@ export function MagneticButton({
       >
         {children}
       </motion.div>
-    </Component>
+    </ComponentToRender>
   )
 }
